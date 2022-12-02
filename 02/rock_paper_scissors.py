@@ -50,7 +50,14 @@ for i in strategy:
 print("Star 2: ", points)
 
 
+
+
+
+
+
+## ----------------------------------------
 ## Older/initial solution:
+## ----------------------------------------
 """
 strategy = numpy.loadtxt("strategy.txt", dtype=(str,str))
 
