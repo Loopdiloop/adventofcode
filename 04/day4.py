@@ -8,7 +8,7 @@ ranges = numpy.loadtxt(input_file, delimiter=",", dtype=(str,str))
 
 counter=0
 for r in ranges:
-    a,b = r[0].split("-")
+    a, b = r[0].split("-")
     c, d = r[1].split("-")
     a = int(a); b = int(b); c = int(c); d = int(d)
     if (a <= c and b >= d) or (c <= a and d >= b):
