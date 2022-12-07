@@ -13,6 +13,11 @@ with open('rations.txt') as f:
         except:
             elves.append(calories)
             calories = 0
+    if calories !=0: 
+        # Ensure you add the last elf...
+        # Creds to Kristin, Trygve and Jacob. Gg.
+        elves.append(calories)
+
 
 print("Max calories by one elf:", max(elves))
 
