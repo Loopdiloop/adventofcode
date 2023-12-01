@@ -3,6 +3,8 @@ addon=0
 with open("input.txt") as openfile:
     for line in openfile.readlines():
         line=line.replace("\n", "")
+        #problem! Instances of eg. twooneight->218. 
+        #keeping first and last letter to preserve these overlaps.
         line=line.replace("one","o1e").replace("two","t2o").replace("three","t3e").replace("four","f4r").replace("five","f5e").replace("six","s6x").replace("seven","s7n").replace("eight","e8t").replace("nine","n9e")#.replace("zero", "0")
         
         for abc in list("abcdefghijklmnopqrstuvwxyz"):
