@@ -1,6 +1,6 @@
-
 import java.io.*;
 
+/* to run, e.g. java -cp . day01.java */
 
 public class day01 {
     public static void main(String[] args) throws FileNotFoundException, IOException {
